@@ -1,0 +1,11 @@
+#Formatting Expression Basic
+s1='My name is %s' %('Omkar Savardekar')
+print(s1)
+print()
+s2='My name is %s and my roll no is %d' %('Omkar Savardekar',49)
+print(s2)
+print()
+s3='My name is %s, roll no is %d, avg is %g and total marks %d' %('Omkar Savardekar',49,52.85,600)
+print(s3)
+s4='My name is %s, roll no is %s, avg is %s and total marks %s' %('Omkar Savardekar',52.85,600,49)
+print(s4)
