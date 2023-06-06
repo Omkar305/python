@@ -1,0 +1,15 @@
+list1=(x for x in range(11) if x%2==0)
+a1=iter(list1)
+print(a1.__next__())
+print(a1.__next__())
+print()
+
+a2=iter(list1)
+print(a2.__next__())
+print(a2.__next__())
+print()
+
+a3=iter(list1)
+print(a3.__next__())
+print(a3.__next__())
+print(a3.__next__())
